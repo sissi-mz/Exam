@@ -1,0 +1,7 @@
+.acceuil {
+    display: flex;
+}
+
+.acceuil__panel {
+    width: 100%;
+}

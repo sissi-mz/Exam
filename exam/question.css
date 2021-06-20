@@ -1,0 +1,20 @@
+.question__answer {
+    color: #757575;
+    background-color: #E3E8F8;
+    border-radius: 20px;
+    padding: 13px 20px;
+    margin: 10px 0;   
+}
+
+.question__answer:hover {
+    box-shadow: 0px 5px 5px #e4e4e4;
+}
+
+.question__answer--checkbox {
+    display: none;
+}
+
+.question__answer--is-checked {
+    color: white;
+    background-color: #183868;
+}

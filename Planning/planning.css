@@ -1,0 +1,7 @@
+.planning {
+    display: flex;
+}
+
+.planning__panel {
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Red Hat Display";
+	src: url('../fonts/Red_Hat_Display/RedHatDispla-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: "Red Hat Display";
+}
+
+.is--bold {
+    font-weight: 600;
+}

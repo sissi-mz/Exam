@@ -1,0 +1,54 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: #183868;
+    height: 70px;
+}
+
+.navigation__logo {
+    margin: 0 0 0 20px;
+}
+
+.navigation__links {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-left: 200px;
+        
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation__link--active,
+.navigation__item:hover {
+    background-color: #0D1647;
+}
+
+.navigation__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    height: 100%;
+}
+
+.navigation__icons {
+    margin-right: 60px;
+}
+
+.navigation__icon {
+    color: white;
+    margin: 0 25px;
+}
+
+.navigation__icon:hover {
+    content: "person"
+}
